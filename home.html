@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+
+           
+       <div class="container">
+        
+        <div class="titulo">
+          <h2>Bienvenido</h2>
+
+        </div>
+         
+         <div class="saldo-show">
+          <h3>Mostrar Saldo</h3>
+         <p>Saldo actual: <span id="saldo">100</span></p>
+         <label for="cuentas">Cuentas:</label>
+         <input type="text" id="cuentas">
+         <button class="btn1" onclick="mostrarSaldo()">Mostrar Saldo</button>
+       </div>
+        
+         <hr>
+
+        <div class="Ingresar">
+         <h3>Ingresar Monto</h3>
+          <p>Cuenta 1: <span id="cuenta1">100</span></p>
+           <p>Cuenta 2: <span id="cuenta2">200</span></p>
+        <label for="Monto">Monto</label>
+           <input type="number" id="monto">
+            <button class="btn2" onclick="ingresarMonto()">Ingresar Monto</button>
+        </div>
+          <hr>
+        <div class="retirar">
+          <h3>Retirar Monto</h3>
+          <p>Cuenta 1: <span id="cuenta1">100</span></p>
+          <p>Cuenta 2: <span id="cuenta2">200</span></p>
+          <label for="monto">Monto:</label>
+          <input type="number" id="monto">
+          <button class="btn3" onclick="retirarMonto()">Retirar Monto</button>
+        </div>
+
+          <div class="exit">
+            <a href="./index.html"> <button class="exit2" onclick="window.scrollTo(0, 0)">Salir</button></a>
+           
+          </div>
+
+        
+       </div>
+           
+
+
+
+    </section>
+
+
+  <script src="./home.js"></script>
+</body>
+</html>

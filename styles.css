@@ -1,0 +1,39 @@
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+#login{
+    background-color: rgba(15, 10, 161, 0.837);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 20%;
+    height: 15rem;
+}
+#loginButton{
+    border-radius: 15px;
+    padding: 5px;
+    height: 35px;
+    width: 60px;
+    right: 50px;
+}
+h1{
+    color: rgba(240, 248, 255, 0.964);
+    text-decoration:underline;
+}
+#loginButton{
+    background-color: rgb(14, 219, 52);
+}
